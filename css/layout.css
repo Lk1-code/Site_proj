@@ -1,0 +1,24 @@
+.layout-cabecalho{
+	position: relative;
+	z-index: 1;
+}
+.layout-menu{
+	text-align: center;
+	height: 60px;
+}
+@media (max-width:761px){
+	.layout-menu{
+		height: 180px;
+	}
+}
+.layout-grid{
+	position: relative;
+    margin: 80px 0;
+	width: 90%;
+	padding-left: 10%;
+	padding: 0, 10px,40px;
+}
+.layout-rodape{
+	background-color: #004b86;
+	padding: 70px 0;
+}

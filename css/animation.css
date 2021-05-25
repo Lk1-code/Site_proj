@@ -1,0 +1,44 @@
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+@keyframes up{
+    from{
+        opacity: 0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform:translateY(0);
+    }
+}
+.animate-up{
+    animation-name: up;
+    animation-duration: 400ms;
+    animation-fill-mode: backwards;
+}
